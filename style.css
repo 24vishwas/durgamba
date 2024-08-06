@@ -564,8 +564,13 @@ li {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    text-align: center;
+    background-color: var(--yellow-bg);
   }
-  
+  .service-item h3{
+    margin: top 20px;
+    margin-bottom: 30px; 
+  }
   .prev-btn, .next-btn {
     cursor: pointer;
     position: absolute;
@@ -620,12 +625,7 @@ li {
     height: auto;
     object-fit: cover;
   }
-  .service-item{
-    text-align: justify;
-  }
-  .service-item p{
-    font-size: 14px;
-  }
+ 
   /* Media Queries */
   @media (min-width: 1200px) {
     .service-item {
@@ -974,7 +974,12 @@ footer{
 .secondary-hero-container h1{
     font-size: 2.5rem;
 }
-/* secondary-hero-section end *
+/* secondary-hero-section end */
+
+.timeline p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
 
 /* about-card section */
 .about-card .about-container{
@@ -1044,7 +1049,9 @@ footer{
     height: auto;
     object-fit: cover;
 }
-
+.sister-concern-container .vision-mission .img-wrapper{
+    width: 40%;
+}
 @media (max-width:992px) {
     .vision-mission{
         flex-direction: column;
@@ -1053,8 +1060,22 @@ footer{
     .vision-mission .content{
         width: 100%;
     }
+   .sister-concern-container .vision-mission .img-wrapper{
+        width: 100%;
+    }
 }
 /* about page end */
+
+/* founder-note */
+.founder-note-container{
+    margin-bottom: 5%;
+}
+.founder-note-container h3{
+    margin-bottom: 10px;
+}
+.founder-note-container p{
+    text-align: justify;
+}
 
 
 /* team page  */
